@@ -20,9 +20,6 @@ To_Do_List_App/
     └── uncheck.svg
 ```
 
-## Project Screenshots
-![screencapture-127-0-0-1-5500-index-html-2025-02-27-16_04_29](https://github.com/user-attachments/assets/8461a6d1-7d7b-4eb5-838c-29812c155731)
-
 ## Installation
 1. Clone the repository:
 ```bash
