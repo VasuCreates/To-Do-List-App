@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoNest - Smart To-Do List App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="particles-container" id="particles-js"></div>
+    <div class="container">
+      <div class="todo-app">
+        <div class="app-header">
+          <h2>TodoNest <img src="./images/todo_logo.png" alt="To-do icon" /></h2>
+          <p class="tagline">Organize your day, achieve more</p>
+        </div>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="What's on your agenda today?"
+            autocomplete="off"
+          />
+          <button onclick="addTask()" title="Add Task">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+        <div class="filters">
+          <span class="filter active" data-filter="all">All</span>
+          <span class="filter" data-filter="pending">Pending</span>
+          <span class="filter" data-filter="completed">Completed</span>
+        </div>
+        <ul id="list-container">
+          <!-- Tasks will be populated dynamically -->
+        </ul>
+        <div class="stats">
+          <span id="task-stats">0 tasks remaining</span>
+          <button id="clear-completed">Clear Completed</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Made with <i class="fas fa-heart"></i> and productivity in mind</p>
+    </div>
+
+    <!-- <a
+      href="https://www.google.com"
+      target="_blank"
+      class="hidden-link"
+      rel="noopener"
+      >google</a> -->
+    <a
+      href="https://www.linkedin.com/in/connect-vasu/"
+      class="hidden-link"
+      target="_blank"
+      rel="noopener"
+      >Vasu Munjapara</a
+    >
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
