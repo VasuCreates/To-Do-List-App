@@ -358,20 +358,6 @@ ul li span:hover {
   margin-right: 80px;
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 14px;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.footer .fa-heart {
-  color: #e74c3c;
-}
-
 .hidden-link {
   position: absolute;
   bottom: 10px;
@@ -409,8 +395,4 @@ ul li span:hover {
     font-size: 16px;
   }
 
-  .footer {
-    position: relative;
-    padding: 15px;
-  }
 }
